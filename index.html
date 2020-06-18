@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Productos</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<!--NAVIGATION-->
+	<nav class="navbar bg-dark">
+		<a href="#" class="navbar-brand">
+			Productos
+		</a>
+	</nav>
+
+		
+	<!--APP-->
+	<div class="container">
+		<div id="app" class="row pt-5">
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-header">
+						<h4>Agrega un producto</h4>
+					</div>
+					<form action="" id="form" class="card-body">
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" placeholder="Nombre del producto" required>
+						</div>
+						<div class="form-group">
+							<input type="number" step="0.01" class="form-control" id="price" placeholder="50.000" min="1000" max="999999" required>
+						</div>
+						<div class="form-group">
+							<input type="number" class="form-control" id="year" placeholder="2010" min="1980" max="2020" required>
+						</div>
+						<input type="submit" class="btn btn-primary btn-block" value="Guardar">
+					</form>
+				</div>
+			</div>
+			<div id="producs" class="col-md-8">
+				
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
